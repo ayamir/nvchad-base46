@@ -12,7 +12,7 @@ return {
   DiagnosticError = { fg = colors.red },
   DiagnosticWarn = { fg = colors.yellow },
   DiagnosticInfo = { fg = colors.green },
-  LspSignatureActiveParameter = { fg = colors.black, bg = colors.green },
+  -- LspSignatureActiveParameter = { fg = colors.black, bg = colors.green },
 
   LspInlayHint = {
     bg = colorize(colors.black2, vim.o.bg == "dark" and 0 or 3),
