@@ -4,6 +4,9 @@ local opts = require("nvconfig").base46
 local hl = {
   IblChar = { fg = colors.line },
   IblScopeChar = { fg = colors.grey },
+  SnacksIndent = { fg = colors.one_bg },
+  SnacksIndentScope = { fg = colors.grey },
+  SnacksIndentChunk = { fg = colors.grey },
 }
 
 local scopehl = opts.transparency and { underline = true } or { bg = colors.black2 }
