@@ -62,6 +62,12 @@ M.base_16 = {
 M.type = "light"
 
 M.polish_hl = {
+  defaults = {
+    SnacksPickerListCursorLine = { bg = M.base_30.one_bg3 },
+    SnacksPickerSelected = { fg = M.base_30.black, bg = M.base_30.purple, bold = true },
+    SnacksPickerUnselected = { fg = M.base_30.grey_fg2 },
+  },
+
   syntax = {
     Type = { fg = M.base_30.teal },
   },
